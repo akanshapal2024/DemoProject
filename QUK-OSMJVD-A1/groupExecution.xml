@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="beauty"></include>
+			  <exclude name="food"></exclude>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="batchExecution.LaunchPurple"/>
+      <class name="batchExecution.LaunchSwiggy"/>
+      <class name="batchExecution.LaunchFlipcart"/>
+      <class name="batchExecution.LaunchAjio"/>
+      <class name="batchExecution.LaunchDemo"/>
+      <class name="batchExecution.LaunchNetflix"/>
+      <class name="batchExecution.LaunchRaymond"/>
+      <class name="batchExecution.LaunchLakme"/>
+      <class name="batchExecution.LaunchDisney"/>
+      <class name="batchExecution.LaunchLoreal"/>
+      <class name="batchExecution.LaunchMyntra"/>
+      <class name="batchExecution.LaunchBoat"/>
+      <class name="batchExecution.LaunchMaybelline"/>
+      <class name="batchExecution.LaunchAmazon"/>
+      <class name="batchExecution.LaunchLenskart"/>
+      <class name="batchExecution.LaunchDominos"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

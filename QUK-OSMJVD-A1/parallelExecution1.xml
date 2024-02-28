@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test1" parallel="true">
+    <classes>
+      <class name="demoAppBatchExecution.LaunchDemo3"/>
+      <class name="demoAppBatchExecution.LaunchDemo2"/>
+      </classes>
+      </test>
+      
+  <test thread-count="3" name="Test2" parallel="true">
+	<classes>  
+      <class name="demoAppBatchExecution.LaunchDemo5"/>
+      <class name="demoAppBatchExecution.LaunchDemo4"/>
+      <class name="demoAppBatchExecution.LaunchDemo1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
