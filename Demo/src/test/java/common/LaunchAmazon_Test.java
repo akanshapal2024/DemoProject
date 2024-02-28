@@ -15,7 +15,7 @@ public class LaunchAmazon_Test {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.co.uk/");
-		//driver.quit();
+		driver.quit();
 	}
 
 }
