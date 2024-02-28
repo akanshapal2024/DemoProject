@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T11:27:11 GMT" name="Suite" finished-at="2024-02-22T11:27:23 GMT" duration-ms="11573">
+    <groups>
+      <group name="food">
+        <method signature="LaunchDominos_Test.dominos()[pri:0, instance:food.LaunchDominos_Test@7b227d8d]" name="dominos" class="food.LaunchDominos_Test"/>
+        <method signature="LaunchFoodMarket_Test.foodMarket()[pri:0, instance:food.LaunchFoodMarket_Test@3901d134]" name="foodMarket" class="food.LaunchFoodMarket_Test"/>
+        <method signature="LaunchMuscleFood_Test.muscleFood()[pri:0, instance:food.LaunchMuscleFood_Test@12d4bf7e]" name="muscleFood" class="food.LaunchMuscleFood_Test"/>
+        <method signature="LaunchSeriousEats_Test.seriousEats()[pri:0, instance:food.LaunchSeriousEats_Test@4c1d9d4b]" name="seriousEats" class="food.LaunchSeriousEats_Test"/>
+        <method signature="LaunchSwiggy_Test.swiggy()[pri:0, instance:food.LaunchSwiggy_Test@14d3bc22]" name="swiggy" class="food.LaunchSwiggy_Test"/>
+      </group> <!-- food -->
+    </groups>
+    <test started-at="2024-02-22T11:27:11 GMT" name="Test" finished-at="2024-02-22T11:27:23 GMT" duration-ms="11573">
+      <class name="food.LaunchDominos_Test">
+        <test-method signature="dominos()[pri:0, instance:food.LaunchDominos_Test@7b227d8d]" started-at="2024-02-22T11:27:21 GMT" name="dominos" finished-at="2024-02-22T11:27:23 GMT" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dominos -->
+      </class> <!-- food.LaunchDominos_Test -->
+      <class name="food.LaunchFoodMarket_Test">
+        <test-method signature="foodMarket()[pri:0, instance:food.LaunchFoodMarket_Test@3901d134]" started-at="2024-02-22T11:27:11 GMT" name="foodMarket" finished-at="2024-02-22T11:27:15 GMT" duration-ms="3631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodMarket -->
+      </class> <!-- food.LaunchFoodMarket_Test -->
+      <class name="food.LaunchMuscleFood_Test">
+        <test-method signature="muscleFood()[pri:0, instance:food.LaunchMuscleFood_Test@12d4bf7e]" started-at="2024-02-22T11:27:18 GMT" name="muscleFood" finished-at="2024-02-22T11:27:20 GMT" duration-ms="2061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- muscleFood -->
+      </class> <!-- food.LaunchMuscleFood_Test -->
+      <class name="food.LaunchSwiggy_Test">
+        <test-method signature="swiggy()[pri:0, instance:food.LaunchSwiggy_Test@14d3bc22]" started-at="2024-02-22T11:27:15 GMT" name="swiggy" finished-at="2024-02-22T11:27:18 GMT" duration-ms="2780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swiggy -->
+      </class> <!-- food.LaunchSwiggy_Test -->
+      <class name="food.LaunchSeriousEats_Test">
+        <test-method signature="seriousEats()[pri:0, instance:food.LaunchSeriousEats_Test@4c1d9d4b]" started-at="2024-02-22T11:27:20 GMT" name="seriousEats" finished-at="2024-02-22T11:27:21 GMT" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seriousEats -->
+      </class> <!-- food.LaunchSeriousEats_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
