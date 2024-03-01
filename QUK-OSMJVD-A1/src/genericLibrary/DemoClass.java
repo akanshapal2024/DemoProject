@@ -19,6 +19,6 @@ public class DemoClass extends BaseClass{
 		sel1.selectByVisibleText("12");
 		WebElement opt1 = driver.findElement(By.id("products-viewmode"));
 		Select sel2 = new Select(opt1);
-		sel2.selectByVisibleText("List");
+		//sel2.selectByVisibleText("List");
 	}
 }
